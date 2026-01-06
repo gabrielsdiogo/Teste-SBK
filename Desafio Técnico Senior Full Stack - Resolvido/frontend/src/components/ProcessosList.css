@@ -1,0 +1,154 @@
+.processos-list-container {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.filters {
+  margin-bottom: 30px;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.filter-row {
+  display: flex;
+  gap: 15px;
+}
+
+.filter-select {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+}
+
+.processos-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.processos-table thead {
+  background: #ec7000;
+  color: white;
+}
+
+.processos-table th {
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.processos-table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.processo-row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.processo-row:hover {
+  background-color: #fff5eb;
+}
+
+.processos-table td {
+  padding: 15px;
+}
+
+.processo-numero {
+  color: #ec7000;
+  font-weight: 500;
+  min-width: 220px;
+  white-space: nowrap;
+}
+
+.ultimo-movimento {
+  font-size: 14px;
+  max-width: 350px;
+}
+
+.movimento-data {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.movimento-descricao {
+  color: #333;
+  word-wrap: break-word;
+  line-height: 1.4;
+}
+
+.partes {
+  font-size: 14px;
+}
+
+.partes div {
+  margin-bottom: 4px;
+}
+
+.load-more-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #ec7000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.load-more-button:hover:not(:disabled) {
+  background: #d66300;
+}
+
+.load-more-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 18px;
+}
+
+.error-message {
+  background: #fee;
+  color: #c00;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+  font-size: 18px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
