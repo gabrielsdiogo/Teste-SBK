@@ -1,14 +1,5 @@
 # Assistente de Documentos com Gemini 2.5 Flash
 
-## Destaques
-
-**Clean Architecture** - Arquitetura limpa com separação de responsabilidades
-**Gemini 2.5 Flash** - IA de última geração do Google
-**Chain of Thought** - Raciocínio transparente e explicável
-**RAG** - Retrieval-Augmented Generation para respostas precisas
-**ChromaDB** - Busca vetorial local e eficiente
-**Dual Interface** - CLI e Web (Streamlit)
-
 ## Arquitetura
 
 Este projeto implementa a **Clean Architecture** 
