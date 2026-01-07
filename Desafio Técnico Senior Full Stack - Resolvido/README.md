@@ -305,8 +305,6 @@ GET /processos/5000918-41.2021.8.13.0487
 }
 ```
 
-## Decisões Técnicas
-
 ### Backend (NestJS)
 
 #### Arquitetura em Camadas
